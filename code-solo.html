@@ -16,11 +16,41 @@
      but scroll and find the one that simply says "Nav" -->
 
 <!-- 3. Copy the HTML code and paste it below. Run your code - what do you see?  -->
-
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Let's Go</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 <!-- 4. Auto-format your page to clean things up. -->
 
 <!-- 5. Next, in the search bar, type "cards" and press enter. Copy the "Example" HTML and paste below. -->
-
+<div class="card" style="width: 18rem;">
+    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Hasbulla</h5>
+      <p class="card-text"> Yay,how are my littlins.</p>
+      <a href="#" class="btn btn-primary">portal to growth</a>
+    </div>
+  </div>
 <!-- 6. Find an image you like from a Google search - put this as the src for the img tag. -->
 
 <!-- 7. Scroll through the side menu and see what else you can add - take a look at the options in the "Components" section.  -->
